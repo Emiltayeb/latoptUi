@@ -215,7 +215,7 @@ nav {
 	.nav-links {
 		position: absolute;
 		top: 8vh;
-		right: 70px;
+		right: 0px;
 		background-color: #c994c4;
 		border: rgba(0, 0, 0, 0.415) solid 2px;
 		flex-direction: column;
