@@ -239,6 +239,13 @@ nav {
 	.eclipse-sm {
 		left: 0;
 	}
+
+	.eclipse-mid,
+	.eclipse-sm {
+		display: none;
+	}
+
+
 }
 
 .navbar-show {
