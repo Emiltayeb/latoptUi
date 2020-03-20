@@ -9,6 +9,11 @@ body {
 	color: #64647e;
 }
 
+.container {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
 /* eclplsie bg */
 .eclipse-big {
 	position: absolute;
@@ -224,7 +229,7 @@ nav {
 		transform: translateX(100%);
 		z-index: 2;
 		transition: all 0.5s ease-in;
-		display: none;
+
 	}
 
 
@@ -247,7 +252,6 @@ nav {
 }
 
 .navbar-show {
-
 	transform: translateX(0%);
 	display: flex
 }
