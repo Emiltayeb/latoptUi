@@ -12,7 +12,7 @@ const navbar_active = () => {
       if (link.style.animation) {
         link.style.animation = "";
       } else {
-        link.style.animation = `fade-in ${(1/index)+0.6}s ease-in`
+        link.style.animation = `fade-in ${(index /7)+2}s ease forwards`
       }
 
     })
